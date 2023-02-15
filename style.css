@@ -1,0 +1,35 @@
+#lista {
+    flex-wrap: wrap;
+    display: flex;
+
+
+}
+
+#digimon {
+    margin: auto;
+    width: 20%;
+    border: 2px saddlebrown solid;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 3px 10px;
+   
+}
+img{
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    #lista {
+        background-color: red;
+        display: block;
+    }
+
+    #digimon {
+        width: 100%;
+        
+    }
+    span{
+        font-size: 30px;
+    }
+}
